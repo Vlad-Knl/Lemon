@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link  href="css/style.css" rel="stylesheet" >
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+       <div class="heading clearfix">
+           <img src="img/Logo_copy.png" alt="logo" class="logo">
+           <nav class= "menu">
+               <img src="img/Lemon_Logo.png" alt="logo">
+               <ul>
+                   <li>
+                       <a href="#">home</a>
+                   </li>
+                   <li>
+                       <a href="#">recipes</a>
+                   </li>
+                   <li>
+                       <a href="#">photo gallery</a>
+                   </li>
+                   <li>
+                       <a href="#">video</a>
+                   </li>
+                   <li>
+                       <a href="#">all categories</a>
+                   </li>
+               </ul>
+               <p><input type="search" name="r" id="Search" accept="" placeholder="find a recipes" class="search"></p>
+           </nav>
+       </div>
+    </header>
+
+    <section class="container recipes">
+            <div class="carousel">
+                    <div id="carousel" class="carousel slide d-inline-block">
+                        <!-- Индикаторы -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-fluid" src="img/Photo11.png" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="img/Photo11.png" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="img/Photo11.png" alt="...">
+                            </div>
+                        </div>
+                        <!-- Элементы управления -->
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Предыдущий</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Следующий</span>
+                        </a>
+                    </div>
+                
+                </div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                <!-- Bootstrap JS -->
+                <script src="js/bootstrap.min.js"></script>
+                
+                <script>
+                    $(function () {
+                        $('#carousel').carousel({
+                            interval: 10000,
+                        });
+                    });
+                </script>
+    </section>
+
+    <section class="container">
+        
+    </section>
+
+    <section class="container">
+        
+    </section>
+
+    <section class="container">
+        
+    </section>
+
+    <footer class="container">
+
+    </footer>
+
+</body>
+</html>

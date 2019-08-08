@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #eaeaea;
+}
+*{
+    box-sizing: unset;
+    line-height: unset;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+    /* запрет на изменения размера блока padding'ом*/
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 86px;
+}
+
+.logo {
+    margin-top: 250px;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    background-color: #fff;
+}
+
+nav img {
+    width: 87px;
+    height: 36px;;
+}
+
+.menu {
+    margin: 0;
+    margin-top: 119px;
+    padding: 0;
+    padding: 43px 94px;
+    box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
+}
+
+.menu ul{
+    margin: 0;
+    margin-top: 14px;
+    padding: 0;
+    width: 534px;
+    margin-left: 94px;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 20.2px;
+}
+
+.menu a {
+    color: #000;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu p {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    text-align: center;
+    margin-left: 57px;
+    width: 162px;
+    height: 28px;
+    margin-top: 7px;
+    font-family: "Josefin Sans";
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-appearance: searchfield;
+}
+
+.carousel {
+    box-shadow: 0 0 13px rgba(11, 12, 12, 0.15);
+}
+
+.recipes {
+    margin-bottom: 100px;
+}
